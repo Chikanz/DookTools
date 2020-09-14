@@ -26,3 +26,7 @@ just some editor shortcuts I found real handy
 `ctrl + M` move currently selected object to in front of editor camera
 
 `ctrl + Q` deselect all objects
+
+
+## How'd you do this?
+https://neogeek.dev/creating-custom-packages-for-unity-2018.3/
