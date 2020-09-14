@@ -3,11 +3,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using Random = UnityEngine.Random;
 
 namespace dook.tools
 {
-
-
     public static class DookTools
     {
         /// <summary>
@@ -301,7 +300,7 @@ namespace dook.tools
         public static float DTFactor(float f) => 1 - Mathf.Pow(f, Time.deltaTime);
 
         
-        #region Structs
+        //Easily convert an int to number row keycodes
         public static KeyCode[] Numkeycodes =
         {
             KeyCode.Alpha1,
@@ -315,7 +314,28 @@ namespace dook.tools
             KeyCode.Alpha9,
             KeyCode.Alpha0,
         };
+        
+        //http://csharphelper.com/blog/2018/04/make-extension-methods-that-pick-random-items-from-arrays-or-lists-in-c/
+        // Return a random item from an array.
+        public static T GetRandom<T>(this T[] items)
+        {
+            // Return a random item.
+            return items[Random.Range(0, items.Length)];
+        }
 
+        // Return a random item from a list.
+        public static T GetRandom<T>(this List<T> items)
+        {
+            // Return a random item.
+            return items[Random.Range(0, items.Count)];
+        }
+    
+        //https://answers.unity.com/questions/608674/does-mathfpingpong-always-have-to-start-at-000.html
+        //Pingpong range
+        public static float PingPong(float aValue, float aMin, float aMax)
+        {
+            return Mathf.PingPong(aValue, aMax-aMin) + aMin;
+        }
     }
     
     public struct TransformSnapShot
@@ -329,6 +349,5 @@ namespace dook.tools
             Rotation = t.rotation;
         }
     }
-    #endregion
 }
 

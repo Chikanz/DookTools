@@ -1,7 +1,7 @@
 {
     "name": "com.dook.tools",
     "displayName": "Dook tools",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "unity": "2019.4",
     "description": "A collection of Unity tools and static functions I use heaps bundled into a neat lil package"
 }
