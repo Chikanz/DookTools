@@ -1,4 +1,6 @@
-﻿using dook.tools;
+﻿#if UNITY_EDITOR
+
+using dook.tools;
 using UnityEditor;
 using UnityEditor.ShortcutManagement;
 using UnityEngine;
@@ -54,3 +56,5 @@ namespace dook.tool.shortcuts
         }
     }
 }
+
+#endif
