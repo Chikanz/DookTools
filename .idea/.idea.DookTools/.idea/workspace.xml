@@ -1,6 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="616e4d6b-ff99-4a59-82dd-e01a9be1c911" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.DookTools/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DookTools/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Editor/DookShortcuts.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Editor/DookShortcuts.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SpaceNavigator/Editor/ViewportController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SpaceNavigator/Editor/ViewportController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Editor/DookShortcuts.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/SpaceNavigator/Editor/ViewportController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/SpaceNavigator/Editor/SpaceNavigatorWindow.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/SpaceNavigator/Plugins/SpaceNavigator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/package.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/DookTools.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Scripts/DookTools.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Editor/DookShortcuts.cs" />
+        <option value="$PROJECT_DIR$/Assets/SpaceNavigator/Plugins/SpaceNavigator.cs" />
+        <option value="$PROJECT_DIR$/Assets/SpaceNavigator/Editor/ViewportController.cs" />
+        <option value="$PROJECT_DIR$/Assets/package.json" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1hU0pYLEHLyxm3l2vyeV0R84We8" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="Discover.Launch.Via.Unity" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="settings.editor.selected.configurable" value="CodeLensConfigurable" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
@@ -16,5 +59,10 @@
       <option name="pid" />
       <method v="2" />
     </configuration>
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
 </project>
