@@ -27,6 +27,11 @@ just some editor shortcuts I found real handy
 
 `ctrl + Q` deselect all objects
 
+### To update
+
+1. Run make file to push changes to UPM branch
+2. Delete /Packages/package-lock.json on local project
+
 
 ## How'd you do this?
 https://neogeek.dev/creating-custom-packages-for-unity-2018.3/
