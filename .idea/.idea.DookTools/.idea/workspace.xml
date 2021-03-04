@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="616e4d6b-ff99-4a59-82dd-e01a9be1c911" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DookTools/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DookTools/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Editor/DookShortcuts.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Editor/DookShortcuts.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SpaceNavigator/Editor/ViewportController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SpaceNavigator/Editor/ViewportController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,5 +60,11 @@
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="993" y="319" width="672" height="678" key="search.everywhere.popup" timestamp="1604206795702">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="993" y="319" width="672" height="678" key="search.everywhere.popup/0.0.2560.1400/-1080.104.1080.1920@0.0.2560.1400" timestamp="1604206795702" />
   </component>
 </project>

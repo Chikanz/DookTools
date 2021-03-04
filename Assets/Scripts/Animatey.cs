@@ -30,26 +30,32 @@ namespace dook.tools.animatey
             float timeElapsed = 0;
             while (timeElapsed <= duration)
             {
-                var i = reverse ? Curve.Evaluate(1 - (timeElapsed / duration)) : Curve.Evaluate(timeElapsed / duration);
-
-                i = Mathf.Clamp01(i);
-                var val = Mathf.Lerp(FromTo.x, FromTo.y, i);
-
-                Action?.Invoke(val, args);
-
-                if (chainTime > 0 && i > chainTime && !chainFired)
-                {
-                    Chain?.Invoke(this, null);
-                    chainFired = true;
-                }
+                Evaluate(timeElapsed, reverse, args);
 
                 timeElapsed += Time.deltaTime * speed;
 
                 yield return null;
             }
 
+            Evaluate(duration, reverse, args); //make sure the final tick actually happens
             Done?.Invoke(this, null);
             chainFired = false;
+        }
+        
+        private void Evaluate(float timeElapsed, bool reverse, object args)
+        {
+            var i = reverse ? Curve.Evaluate(1 - (timeElapsed / duration)) : Curve.Evaluate(timeElapsed / duration);
+
+            i = Mathf.Clamp01(i);
+            var val = Mathf.Lerp(FromTo.x, FromTo.y, i);
+
+            Action?.Invoke(val, args);
+            
+            if (chainTime > 0 && i > chainTime && !chainFired)
+            {
+                Chain?.Invoke(this, null);
+                chainFired = true;
+            }
         }
 
         public Animatey ChainAt(float duration)
