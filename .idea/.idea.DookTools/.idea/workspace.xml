@@ -16,6 +16,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Editor/DookShortcuts.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/SpaceNavigator/Editor/ViewportController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/SpaceNavigator/Editor/SpaceNavigatorWindow.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Animatey.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/SpaceNavigator/Plugins/SpaceNavigator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/package.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DookTools.cs" root0="FORCE_HIGHLIGHTING" />
@@ -28,6 +29,7 @@
         <option value="$PROJECT_DIR$/Assets/SpaceNavigator/Plugins/SpaceNavigator.cs" />
         <option value="$PROJECT_DIR$/Assets/SpaceNavigator/Editor/ViewportController.cs" />
         <option value="$PROJECT_DIR$/Assets/package.json" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Animatey.cs" />
       </list>
     </option>
   </component>
@@ -62,9 +64,9 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="993" y="319" width="672" height="678" key="search.everywhere.popup" timestamp="1604206795702">
+    <state x="318" y="436" width="642" height="534" key="find.popup" timestamp="1614852120229">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="993" y="319" width="672" height="678" key="search.everywhere.popup/0.0.2560.1400/-1080.104.1080.1920@0.0.2560.1400" timestamp="1604206795702" />
+    <state x="318" y="436" width="642" height="534" key="find.popup/0.0.2560.1400/-1080.104.1080.1920@0.0.2560.1400" timestamp="1614852120229" />
   </component>
 </project>
